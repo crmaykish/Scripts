@@ -97,3 +97,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+alias ls="ls -lah --color=auto"
+alias dr="./tools/docker/docker_run.sh"
+alias dev="source setup_env"
